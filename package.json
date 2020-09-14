@@ -1,0 +1,24 @@
+{
+  "name": "dj2n-bot",
+  "version": "1.0.0",
+  "description": "He be the bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gymnophoria",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "bufferutil": "^4.0.1",
+    "discord.js": "^12.3.1",
+    "erlpack": "github:discord/erlpack",
+    "fs": "0.0.1-security",
+    "libsodium-wrappers": "^0.7.8",
+    "moment": "^2.28.0",
+    "path": "^0.12.7",
+    "utf-8-validate": "^5.0.2",
+    "ytdl-core": "^3.2.2",
+    "zlib-sync": "^0.1.7"
+  }
+}
