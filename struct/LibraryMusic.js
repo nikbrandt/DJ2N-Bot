@@ -72,7 +72,7 @@ class LibraryMusic {
 			this.play(connection, Date.now());
 		});
 
-		dispatcher.on('end', () => {
+		dispatcher.on('finish', () => {
 			this.play(connection);
 		});
 	}
